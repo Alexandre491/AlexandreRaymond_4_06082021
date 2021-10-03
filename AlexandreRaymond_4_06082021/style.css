@@ -655,8 +655,9 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight:bold;
+    font: weight 400px;
     color: #FFF!important;
+    font-size: 15px;
 }
 
 .container {
@@ -683,6 +684,7 @@ a {
 
 p {
     font-size: 11px;
+    text-align: center;
 }
 
 .tight-width-whitespace {
@@ -707,6 +709,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 3rem;
 }
 
 h2 {
@@ -1037,6 +1040,17 @@ NEW RULES ALEX
 
 .bgc-white l-bloc {
     width: 95%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.li-sous-titre {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
 }
 @media (max-width: 400px) {
     .bloc {
